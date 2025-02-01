@@ -47,14 +47,14 @@ color: $red-color;
  margin-left: 25px;
 
   @media screen and (min-width: 768px) {
-    display: flex;
-    margin-top: 180px;
+  
     margin-left: 0;
     margin-bottom: 0;
     gap: 20px; 
   }
   @media screen and (min-width: 1200px) {
-    margin-top: 259px;
+     display: flex; 
+     margin-top: 259px;
     gap: 23px; 
   }
 }
@@ -66,10 +66,11 @@ color: $red-color;
     position: relative;
     background-color: #F0D1A5;
    margin-bottom: 310px;
+   margin: 0 auto;
     @media screen and (min-width: 768px) {
      width: 220px;
      margin-top: 0;
-     margin-bottom: 0;
+     margin-bottom: 310px;
     }
     @media screen and (min-width: 1200px) {
       width: 330px;
@@ -90,7 +91,6 @@ color: $red-color;
   top: -250px;
   left: 7px;
   @media screen and (min-width: 768px) {
-    top: -150px;
     left: 7px;
    }
   @media screen and (min-width: 1200px) {
