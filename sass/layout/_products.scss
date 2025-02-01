@@ -1,0 +1,106 @@
+.products{
+  padding-top: 121px;
+  padding-bottom: 98px;
+  background-color: $main-text-color;
+  @media screen and (min-width: 768px) {
+    padding-top: 122px;
+  padding-bottom: 112px;
+  }
+  @media screen and (min-width: 1200px){
+    padding-top: 126px;
+    padding-bottom: 119px;
+  }
+}
+.products__second-title{
+  font-family: Titan One;
+font-weight: 400;
+font-size: 18px;
+text-transform: uppercase;
+text-align: center;
+color: $pink-color;
+margin-bottom: 15px;
+@media screen and (min-width: 768px) {
+  font-size: 26px;
+}
+@media screen and (min-width: 1200px){
+  font-size: 30px;
+}
+}
+.products__title{
+  font-family: Titan One;
+  font-weight: 400;
+font-size: 34px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: $red-color;
+@media screen and (min-width: 768px) {
+  font-size: 48px;
+}
+@media screen and (min-width: 1200px){
+  font-size: 58px;
+}
+}
+.products__list{
+  display: block;
+ margin-top: 270px;
+ margin-left: 25px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 0;
+    margin-bottom: 0;
+    gap: 20px; 
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 259px;
+    gap: 23px; 
+  }
+}
+.products__item{
+ width:280px; 
+ height: 485px;
+ padding: 165px 60px 60px;  
+    border-radius: 24px;
+    position: relative;
+    background-color: #F0D1A5;
+   margin-bottom: 310px;
+    @media screen and (min-width: 768px) {
+     width: 220px;
+     margin-top: 0;
+     margin-bottom: 0;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 330px;
+      height: 525px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+}
+.products__item:first-child{
+  margin-bottom: 310px;
+  background-color:$main-bg-color;
+}
+.products__item:last-child{
+  background-color: #C2E297;
+}
+.products__img{
+  position: absolute;
+  top: -250px;
+  left: 7px;
+  @media screen and (min-width: 768px) {
+    top: -150px;
+    left: 7px;
+   }
+  @media screen and (min-width: 1200px) {
+    top: -250px;
+    left: 7px;
+   }
+}
+.products__subtitle{
+  text-align: center;
+}
+.products__text{
+  text-align: center;
+}

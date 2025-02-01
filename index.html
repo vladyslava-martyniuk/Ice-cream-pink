@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice cream pink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img
+          class="header_logo"
+          src="./images/header_images/header_logo.png"
+          alt="logo"
+        />
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link" href="./index.html">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">About us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">How it`s made</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Our products</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__btn">Buy now</button>
+        <button
+          type="button"
+          class="menu-btn-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <a href="#" class="btn-menu"
+            ><img
+              src="./images/header_images/header_burger.svg"
+              alt="burger button"
+            />
+          </a>
+        </button>
+      </div>
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="mobile-menu_btn">Buy now</button>
+         <nav  class="nav-mobile-menu" id="mobile-nav">
+          <ul class="nav-mobile-menu__list list">
+            <li class="nav-mobile-menu__item">
+              <a class="nav-mobile-menu__link link"
+               href="./index.html" id="menu-item-1">Home</a>
+            </li>
+            <li class="nav-mobile-menu__item">
+              <a class="nav-mobile-menu__link link" href=""
+               id="menu-item-2">About us</a>
+            </li>
+            <li class="nav-mobile-menu__item">
+              <a class="nav-mobile-menu__link link" href="" 
+              id="menu-item-3">How it`s made</a>
+            </li>
+            <li class="nav-mobile-menu__item">
+              <a class="nav-mobile-menu__link link" href="" 
+              id="menu-item-4">Our products</a>
+            </li>
+            <li class="nav-mobile-menu__item">
+              <a class="nav-mobile-menu__link link" href="" 
+              id="menu-item-5">Contact</a>
+            </li>
+          </ul>
+        </nav>  
+            <button type="button" class="menu-btn-close js-close-menu"
+            aria-expanded="false" aria-controls="mobile-menu">
+             <a href="#" class="btn-menu"
+            ><img
+              src="./images/header_images/header_close.svg"
+              alt="close button"
+            />
+          </a>  
+            </button>
+          </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">ice cream <br>made with <br>
+            <span class="hero__title-accent" >passion</span></h1>
+          <ul class="hero-quantity__list list">
+            <li class="hero-quantity__item">
+              <p class="hero-quantity__number">16</p>
+              <p class="hero-quantity__text">cafes</p>
+            </li>
+            <li class="hero-quantity__item">
+              <p class="hero-quantity__number">23</p>
+              <p class="hero-quantity__text">food trucks</p>
+            </li>
+          </ul>
+          <div class="hero-wrapper_btns">
+            <button class="hero-wrapper__btn" type="button">Products
+            </button>
+            <button class="hero-wrapper__btn" type="button">How it`s 
+              made</button>
+          </div>
+          <div class="hero-wrapper__div">
+            <img 
+            srcset="
+                                    ./images/hero_images/hero_pitcher_tab.png    354w,
+                                     ./images/hero_images/hero_pitcher_desk.png    370w "
+             sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100%"
+             src="./images/hero_images/hero_pitcher_desk.png" 
+                           alt="pitcher of milk" class="hero-wrapper__img"/>
+            <p class="hero-wrapper__text">Lorem ipsum dolor
+               sit amet, <br>
+               consectetur adipiscing elit,<br>
+               sed do eiusmod tempor <br>
+               incididunt ut labore et</p>   
+          </div>
+          <img 
+            srcset="
+                                    ./images/hero_images/hero_woman_tab.png    168w,
+                                     ./images/hero_images/hero_woman_desk.png    293w "
+             sizes="(min-width: 1200px) 293px, (min-width: 768px) 168px, 100%"
+             src="./images/hero_images/hero_woman_desk.png" 
+                           alt="woman" class="hero__img"/>
+        </div>
+      </section>
+      <section class="products">
+        <div class="container">
+          <p class="products__second-title">100% natural</p>
+          <h2 class="products__title">products</h2>
+          <ul class="products__list list">
+            <li class="products__item">
+                <img 
+            srcset="
+                                    ./images/products_images/products_ice-cream_tab.png    220w,
+                                     ./images/products_images/products_ice-cream_desk.png    335w
+                                     ./images/products_images/products_ice-cream_mob.png    249w, "
+             sizes="(min-width: 1200px) 335px, (min-width: 768px) 220px, 100%"
+             src="./images/products_images/products_ice-cream_mob.png" 
+                           alt="ice cream" class="products__img"/>
+              <h3 class="products__subtitle">ice cream</h3>
+              <p class="products__text">Lorem ipsum dolor sit <br>
+                amet, consectetur <br>
+                adipiscing elit, sed do eiusmod tempor <br>
+                 incididunt ut labore et</p>
+            </li>
+            <li class="products__item">
+                <img 
+            srcset="
+                                    ./images/products_images/products_ice-coffee_tab.png    220w,
+                                     ./images/products_images/products_ice-coffee_desk.png    335w
+                                     ./images/products_images/products_ice-coffee_mob.png    249w, "
+             sizes="(min-width: 1200px) 335px, (min-width: 768px) 220px, 100%"
+             src="./images/products_images/products_ice-coffee_mob.png" 
+                           alt="ice coffee" class="products__img"/>
+              <h3 class="products__subtitle"> ice coffee</h3>
+              <p class="products__text">Lorem ipsum dolor sit <br>
+                amet, consectetur <br>
+                adipiscing elit, sed do eiusmod tempor <br>
+                 incididunt ut labore et</p></p>
+            </li>
+            <li class="products__item">
+                <img 
+            srcset="
+                                    ./images/products_images/products_milkshakes_tab.png    220w,
+                                     ./images/products_images/products_milkshakes_desk.png    335w
+                                     ./images/products_images/products_milkshakes_mob.png    249w, "
+             sizes="(min-width: 1200px) 335px, (min-width: 768px) 220px, 100%"
+             src="./images/products_images/products_milkshakes_mob.png" 
+                           alt="ice coffee" class="products__img"/>
+              <h3 class="products__subtitle">milkshakes</h3>
+              <p class="products__text">Lorem ipsum dolor sit <br>
+                amet, consectetur <br>
+                adipiscing elit, sed do eiusmod tempor <br>
+                 incididunt ut labore et</p></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
+    <script type="module" src="./js/mobile-menu.js"></script>
+  </body>
+</html>
