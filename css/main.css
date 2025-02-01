@@ -505,7 +505,7 @@ img {
 .products__list {
   display: block;
   margin-top: 270px;
-  margin-left: 25px;
+  margin-left: -10px;
 }
 @media screen and (min-width: 768px) {
   .products__list {
@@ -557,6 +557,12 @@ img {
 
 .products__item:last-child {
   background-color: #C2E297;
+  margin-top: 310px;
+}
+@media screen and (min-width: 1200px) {
+  .products__item:last-child {
+    margin-top: 0;
+  }
 }
 
 .products__img {
