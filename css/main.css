@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: DM Sans;
   background-color: #ffb8ca;
@@ -49,21 +50,26 @@ img {
 }
 
 .container {
-  width: 320px;
+  width: 100%; /* Ширина контейнера 100% */
+  max-width: 320px; /* Максимальна ширина контейнера 320px */
   margin: 0 auto;
   padding: 0 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; /* Включає padding у розмір контейнера */
 }
+
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 100%; /* Для екранів більше ніж 768px контейнер займає 100% */
+    max-width: 768px; /* Максимальна ширина контейнера 768px */
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 100%; /* Для екранів більше ніж 1200px контейнер займає 100% */
+    max-width: 1200px; /* Максимальна ширина контейнера 1200px */
   }
 }
-
 .header {
   padding-top: 6px;
   padding-bottom: 137px;
